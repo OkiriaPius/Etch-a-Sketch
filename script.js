@@ -6,7 +6,7 @@ for (let i = 0; i < 256; i++) {
 }
 const newDivs = document.querySelectorAll(".numbered");
 newDivs.forEach(newDiv => {
-    newDiv.addEventListener("mousemove", () => {
+    newDiv.addEventListener("mouseover", () => {
         newDiv.setAttribute("style", "background-color: yellow;")
     });    
 });
