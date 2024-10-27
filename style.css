@@ -18,12 +18,13 @@ body {
 }
 .numbered {
     background-color: black;
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
     margin: 0;
-    border: 1px solid white;
+    border: none;
     flex-grow: 0;
+    cursor: crosshair;
 }
-.numbered:hover {
+/*.numbered:hover {
     background-color: red;
-}
+}*/

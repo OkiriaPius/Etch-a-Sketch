@@ -4,3 +4,9 @@ for (let i = 0; i < 256; i++) {
     newDiv.classList.add("numbered");
     containerDiv.appendChild(newDiv); 
 }
+const newDivs = document.querySelectorAll(".numbered");
+newDivs.forEach(newDiv => {
+    newDiv.addEventListener("mousemove", () => {
+        newDiv.setAttribute("style", "background-color: yellow;")
+    });    
+});
