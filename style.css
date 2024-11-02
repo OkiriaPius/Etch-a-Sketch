@@ -7,33 +7,37 @@ body {
 }
 
 :root {
-    --box-width: var(--box-width);
-    --container-width: 256px
+    --container-width: 0;
+
 }
 
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 80px;
-    margin-left: 20%;
-    margin-right: 30%;
-    padding: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
     width: var(--container-width);
+    height: var(--container-width);
     max-width: 960px;
     max-height: 960px;
     align-content: center;
-    
+    border: 2px solid green;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 .numbered {
-    background-color: black;
-    flex-grow: 0;
-    flex-basis: 1;
+    background-color: #000000;
+
     margin: 0;
-    width: var(--box-width);
-    height: 14px;
+    width: 8px;
+    height: 8px;
     cursor: crosshair;
     border-radius: 0.5px;
     -webkit-border-radius: 0.5px;
